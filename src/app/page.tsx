@@ -4,6 +4,7 @@ import SkillsMatrix from "@/components/sections/SkillsMatrix";
 import ProjectGrid from "@/components/sections/ProjectGrid";
 import About from "@/components/sections/About";
 import Footer from "@/components/layout/Footer";
+import ContactForm from "@/components/sections/ContactForm";
 import SectionReveal from "@/components/ui/SectionReveal";
 
 export default function Home() {
@@ -14,13 +15,16 @@ export default function Home() {
         <Stats />
       </SectionReveal>
       <SectionReveal>
+        <About />
+      </SectionReveal>
+      <SectionReveal>
         <SkillsMatrix />
       </SectionReveal>
       <SectionReveal>
         <ProjectGrid />
       </SectionReveal>
       <SectionReveal>
-        <About />
+        <ContactForm />
       </SectionReveal>
       <Footer />
     </div>

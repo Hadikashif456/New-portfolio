@@ -3,9 +3,9 @@
 import { motion } from "framer-motion";
 
 const skills = [
-    "Next.js", "React", "TypeScript", "TailwindCSS",
-    "Node.js", "Python", "C++", "Framer Motion",
-    "GSAP", "Three.js", "PostgreSQL", "Git"
+    "Python", "NumPy", "Machine Learning", "DSA",
+    "Adobe Premiere Pro", "Python Frameworks", "C++", "SQL",
+    "Git", "GitHub", "Assembly Language", "AI/Machine Learning"
 ];
 
 export default function SkillsMatrix() {
